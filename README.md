@@ -61,7 +61,7 @@ Run the MCP server (separate terminal, for LLM client integration):
 python -m app.mcp.server
 ```
 
-## Temporal queries
+## queries
 `GET /assets/bitcoin?asOf=2026-06-01T00:00:00Z` returns the version of
 the asset that was valid at that point in time, demonstrating the
 temporal/point-in-time capability required by the spec.
@@ -73,5 +73,4 @@ temporal/point-in-time capability required by the spec.
 - No authentication on the API (out of scope for this project)
 - LangFlow agentic bonus not implemented
 
-## GenAI usage
-See GENAI_USAGE.md for the disclosure statement.
+
